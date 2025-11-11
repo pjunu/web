@@ -5,20 +5,7 @@ import pandas as pd
 
 # --- 1. 페이지 기본 설정 ---
 st.set_page_config(
-    page_title="Streamlit 준우의 첫번째 페이지",
-    page_icon="🔮",
-    layout="wide"
-)
-
-# --- 2. 페이지 타이틀 ---
-st.title("Streamlit 마법 교실 🔮")
-
-import streamlit as st
-import pandas as pd
-
-# --- 1. 페이지 기본 설정 ---
-st.set_page_config(
-    page_title="Streamlit 준우의 마법 교실",
+    page_title="준우의첫번째페이지",
     page_icon="🔮",
     layout="wide"
 )
@@ -195,7 +182,7 @@ df = pd.DataFrame({
     "Country": ["Korea", "USA", "UK"]
 })
 st.dataframe(df)
-st.markdown("https://www.youtube.com/watch?v=qrqHlgqNTHo")
+st.markdown("---")
 
 # --- 9. 섹션 6: Streamlit 기본 기능 (이미지 및 비디오) ---
 st.header("6. Streamlit 기본 기능: 🖼️ 이미지와 🎬 비디오")
@@ -209,7 +196,7 @@ with col1:
 
 with col2:
     st.write("유튜브 동영상 예제")
-    st.video("https://www.youtube.com/watch?v=B2iAodr0fOo")
+    st.video("https://www.youtube.com/watch?v=qrqHlgqNTHo")
 
 # --- 10. 마무리 ---
 st.markdown("---")
